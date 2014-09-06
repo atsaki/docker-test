@@ -1,0 +1,7 @@
+{"service":
+  {"name": "sshd",
+   "tags": ["sshd"],
+   "port": 22,
+   "check": {"script": "pgrep sshd >/dev/null 2>&1", "interval": "10s"}
+  }
+}

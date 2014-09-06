@@ -1,0 +1,7 @@
+{"service":
+  {"name": "socat",
+   "tags": ["socat"],
+   "port": 8080,
+   "check": {"script": "curl -s http://localhost:8080", "interval": "10s"}
+  }
+}
